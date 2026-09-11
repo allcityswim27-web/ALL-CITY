@@ -31,6 +31,11 @@ results/history/<year>/<year>_Swim_<Type>.txt
 
 One `.txt` file per source PDF, named after the original PDF filename.
 
+All of the above are also concatenated, in chronological/document order, into
+a single file: `All_City_Swim_1972-1979_Combined.txt`. Each section in that
+file is preceded by a header banner naming the year, document type, source
+filename, and source PDF URL, so it stays traceable back to its origin.
+
 ## Known site quirk — 1972 Swim Results
 
 On the league history page, the "1972 Swim Results" link actually points to
