@@ -417,6 +417,26 @@ KNOWN_CODES = {
     'SW', 'RW', 'HF', 'WS', 'PC', 'MO', 'NK', 'MB', 'MI', 'CH', 'SE', 'HP',
     'HL', 'GW', 'SEM', 'MID', 'HFSC', 'WSSC',
 }
+# Results-list format used by most 1970s/1980s Swim Results/Heat Sheets pages:
+# "RANK. First Last TEAMCODE  Prelim  Final" (no comma between first/last,
+# unlike the roster/directory-style "Last, First TEAM" lines NAME_CODE_RE
+# handles). The rank usually has a trailing period, but OCR often drops it
+# or the period entirely (e.g. "12 Sam Lipp WS 101.30"), so punctuation
+# after the rank digits is optional. Requiring the rank to immediately
+# precede the name (no intervening word) is what keeps this from matching
+# the "Event N. Age Group Stroke: Name TEAM time YEAR" all-time-record
+# listings scattered through the same pages -- those never have a bare
+# digit directly before the swimmer's name.
+ROW_RE_D_SPACE = re.compile(
+    r'(?<![A-Za-z0-9])(?P<rank>\d{1,2})[.,]?\s+'
+    r'(?P<first>[A-Z][a-zA-Z\'\-]+)\s+'
+    r'(?P<last>[A-Z][a-zA-Z\'\-]+)\.?'
+    r'(?:[\s.,\'’"~=-]{1,4})?'
+    r'(?P<team>[A-Z]{2,4})\b'
+    r'(?:[^A-Za-z0-9]{0,3})'
+    r'(?P<t1>' + TIME_RE + r')'
+    r'(?:\s+(?P<t2>' + TIME_RE + r'))?'
+)
 
 
 def guess_first_last(name):
@@ -437,6 +457,8 @@ def parse_low_confidence_ocr(text, decade, year, source_label):
     skip_file = False
     n = 0
     with_event = 0
+    n_comma = 0
+    n_space = 0
     for raw in lines:
         stripped = raw.strip()
         fh = re.match(r'^File:\s*(\S+)', stripped)
@@ -461,6 +483,27 @@ def parse_low_confidence_ocr(text, decade, year, source_label):
             current_event = re.sub(r'\s+', ' ', stripped)
             continue
 
+        yr = year_local if year_local else year
+        matched_space = False
+        for m in ROW_RE_D_SPACE.finditer(stripped):
+            if m.group('team') not in KNOWN_CODES:
+                continue
+            matched_space = True
+            first, last = m.group('first'), m.group('last')
+            full_raw = f"{last}, {first}"
+            place = clean_num(m.group('rank'))
+            t1, t2 = m.group('t1'), m.group('t2')
+            prelim, final = (t1, t2) if t2 else (None, t1)
+            add_row(decade, yr, first, last, full_raw, None, m.group('team'),
+                    current_event, prelim, final, place, None, source_label,
+                    'low')
+            n += 1
+            n_space += 1
+            if current_event:
+                with_event += 1
+        if matched_space:
+            continue
+
         m = NAME_CODE_RE.match(stripped) or None
         cand = None
         if m and m.group('team') in KNOWN_CODES:
@@ -476,13 +519,13 @@ def parse_low_confidence_ocr(text, decade, year, source_label):
         if not last or len(last) < 2:
             continue
         full_raw = f"{last}, {first}" if first else last
-        yr = year_local if year_local else year
         add_row(decade, yr, first, last, full_raw, None, team,
                 current_event, None, None, None, None, source_label, 'low')
         n += 1
+        n_comma += 1
         if current_event:
             with_event += 1
-    return n, with_event
+    return n, with_event, n_comma, n_space
 
 
 # ---------------------------------------------------------------------------
@@ -569,8 +612,10 @@ def main():
     block_1990_ocr = text_1990s[:split_idx] if split_idx != -1 else ''
     rest_1990s = text_1990s[split_idx:] if split_idx != -1 else text_1990s
 
-    n_low, with_event = parse_low_confidence_ocr(block_1990_ocr, '1990s', 1990, src_1990s)
-    print(f"1990 OCR: {n_low} rows (low confidence)")
+    n_low, with_event, n_low_comma, n_low_space = parse_low_confidence_ocr(
+        block_1990_ocr, '1990s', 1990, src_1990s)
+    print(f"1990 OCR: {n_low} rows (low confidence), "
+          f"{n_low_comma} comma-format, {n_low_space} space-format")
     total += n_low
 
     # pull out each 1992/1993/1994 full-meet-results OCR sub-block, and split
@@ -624,12 +669,23 @@ def main():
 
     total_low = 0
     total_low_with_event = 0
+    by_decade = {}
     for decade, year, path in low_conf_sources:
         text = read(path)
         src = os.path.relpath(path, REPO)
-        cnt, with_event = parse_low_confidence_ocr(text, decade, year, src)
+        cnt, with_event, n_comma, n_space = parse_low_confidence_ocr(
+            text, decade, year, src)
         total_low += cnt
         total_low_with_event += with_event
+        d = by_decade.setdefault(decade, {'total': 0, 'comma': 0, 'space': 0})
+        d['total'] += cnt
+        d['comma'] += n_comma
+        d['space'] += n_space
+    for decade, d in by_decade.items():
+        pct_comma = 100 * d['comma'] / d['total'] if d['total'] else 0
+        pct_space = 100 * d['space'] / d['total'] if d['total'] else 0
+        print(f"  {decade}: {d['total']} rows -- {d['comma']} comma-format "
+              f"({pct_comma:.0f}%), {d['space']} space-format ({pct_space:.0f}%)")
     print(f"1970s/1980s OCR: {total_low} rows (low confidence), "
           f"{total_low_with_event} with event context, "
           f"{total_low - total_low_with_event} without")
