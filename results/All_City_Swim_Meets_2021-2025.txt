@@ -351,8 +351,16 @@ link on the page points directly to a PDF file (e.g.
 the task instructions ("if an age-group link leads to a separate page,
 follow it and extract that too"), none of these links led to a separate
 HTML page in any year, so none were followed/extracted here; their link
-text and URLs are included above as they appear on each main page. All
-age-group PDF links were spot-checked and returned HTTP 200 (not broken).
+text and URLs are included above as they appear on each main page. Every
+age-group PDF link was checked and returned HTTP 200 (not broken), with
+one exception:
+
+BROKEN LINK: the 2024 "8 & Under Boys" link
+(https://allcityswimdive.org/results/2024/swim/8under_boys.pdf) returns
+HTTP 404. This was checked repeatedly and with several plausible
+alternate filenames (8_under_boys.pdf, boys_8under.pdf, 8Under_Boys.pdf),
+all of which also 404. This appears to be a genuinely missing/broken file
+on the source site, not a transient error.
 
 Each year also links to a "Complete Results" page, available in both HTML
 (complete_results.htm) and PDF form. The HTML version is a very large
@@ -369,8 +377,11 @@ plain text with no hyperlink (the equivalent text is a working link on the
 appears to be an oversight on the source site rather than a fetch failure
 on my end.
 
-Failed or unreadable sources: none. All five swim-YYYY pages and all
-links referenced on them (Complete Results HTML/PDF, Team Profiles,
-Unified, and the per-age-group PDFs) returned HTTP 200 when checked,
-except the one missing (unlinked) "meet website archive" text noted above
-for 2025.
+Failed or unreadable sources: the five swim-YYYY pages themselves all
+fetched cleanly (HTTP 200). Of the links referenced on them, two issues
+were found: (1) the 2024 "8 & Under Boys" results PDF 404s, as detailed
+above, and (2) the 2025 page's "meet website archive" text has no
+hyperlink at all (unlike 2021-2024, where the equivalent text links to
+that year's archived meet site). All other links (Complete Results
+HTML/PDF, Team Profiles, Unified, and every other per-age-group PDF)
+returned HTTP 200.
