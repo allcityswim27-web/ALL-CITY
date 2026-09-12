@@ -478,8 +478,20 @@ def parse_low_confidence_ocr(text, decade, year, source_label):
             continue
         if 'rec.' in stripped.lower() or stripped.lower().startswith('record'):
             continue
-        if (LOW_CONF_EVENT_HDR_RE.match(stripped) and len(stripped) < 90
-                and 'rec' not in stripped.lower()):
+        if LOW_CONF_EVENT_HDR_RE.match(stripped) and len(stripped) < 90:
+            # All-time-record-book lines ("Boys 8 & Under 100-m. Medley
+            # Relay Rec. 1:21.37 Monona 1980") match this header shape too,
+            # since they start with Girls/Boys and name a stroke/relay. The
+            # literal 'rec' substring check above doesn't catch them
+            # reliably -- OCR frequently mangles "Rec." to "Ree." or drops
+            # the leading R into "ec.", so 'rec' never appears in the
+            # string. A real event header never contains a time value, so
+            # use that instead: any embedded time token means this is a
+            # record-book entry, not a header, and must not become
+            # current_event (a wrong event on every following row is worse
+            # than a missing one).
+            if TIME_TOKEN_RE.search(stripped):
+                continue
             current_event = re.sub(r'\s+', ' ', stripped)
             continue
 
