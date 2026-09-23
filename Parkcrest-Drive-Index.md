@@ -2,11 +2,13 @@
 
 **What this is:** One entry per file in the shared Parkcrest All-City Drive, written after opening and reading each file. Use it when preparing 2027 chair briefs so you don't have to search the Drive again.
 
-- **Root indexed:** `Parkcrest All-City Drive Folder` (owner: parkcrestallcity@gmail.com), including all subfolders. [Open root](https://drive.google.com/drive/folders/11sn28yYDM-iDi6U5ICgpbc-M_hHFK-uJ)
+- **Sources indexed (two trees):**
+  1. **Parkcrest's own shared Drive:** `Parkcrest All-City Drive Folder` (owner: parkcrestallcity@gmail.com), including all subfolders. Entries #1–77. [Open](https://drive.google.com/drive/folders/11sn28yYDM-iDi6U5ICgpbc-M_hHFK-uJ)
+  2. **The `Parkcrest` folder at the chair-brief project root** (`0ANCUVyit6Ew1Uk9PVA` → `Parkcrest`, id `1bUp6xE7pveh57bJeJhjXufQ8tHETt_FZ`). Entries #78–95. It holds **five 2026 committee debriefs that are not in Parkcrest's own Drive** (Facilities, Money/Sponsorship-Accounting, Marketing, Ambiance/RAA, and a Timers+Marshals variant of Meet Management), plus the street-app site plan. They were uploaded by allcityswim27 on 9/22 and are not in tree 1. The handoff's "leave it alone" call was about brief-building. This pass only reads files, so the folder is included.
 - **Pass date:** 2026-09-23 (about 7 weeks after the Jul 30 – Aug 1, 2026 meet)
-- **Scope:** 77 files across the root and every subfolder (about 20 subfolders are empty). Read-only pass: nothing in the Drive was modified, moved, shared, or deleted.
-- **Handoff context:** `Chair-Brief-Handoff.md` could not be found in this repo (any branch) or in Drive search, so its folder-structure notes are **not** reflected here. The chair tags below follow the 2027 Chair Brief titles that already exist in Drive (Facilities, Parking & Transportation, Officials, Timers, Clerk of Course, Meet Marshals, Announcer, Scoreboards/Timing/Scoring, Technology/Livestream, Concessions, Hospitality, Second Harvest, Recognition & Awards, Senior Recognition, Apparel, Signage/Decorations/Selfies, Communications & PR, Social Media, Financial, Medical), plus Sponsorship, Volunteers, and Co-Directors.
-- **Not indexed:** your own working folders (`Parkcrest 2026 — Shared Reference Docs`, `Parkcrest`, and the per-chair 2027 brief folders). Appendix B lists which reference-doc copies map back to originals here, and which have no original in this root.
+- **Scope:** 95 entries. Duplicates (.docx/.xlsx exports of Google-native files already read) are listed but not re-summarized. Read-only pass: nothing in either Drive tree was modified, moved, shared, or deleted.
+- **Handoff context:** checked against `Chair-Brief-Handoff.md` (Erik supplied it after the first pass). Chair tags use the 2027 brief titles. Appendix A maps each tag to the 2027 chair and the brief folder. The section **"Cross-check against the handoff's open items"** lists where this Drive answers or contradicts something the handoff treats as open.
+- **Not indexed:** `Parkcrest 2026 — Shared Reference Docs` (copies made by the brief project, mapped back to originals in Appendix B), the per-chair 2027 brief folders, the `Financial` folder's Budget Planner, the `Sarah` and `All City Logos` image folders, and project-only files that aren't in Drive (`Parkcrest 2026 Debrief Notes - Fable.docx`, `Committee-Responsibilities-2027.md`, `Permit_Open_Items_Tracker.md`, `sign-schedule_1.md`, and similar).
 
 ---
 
@@ -22,14 +24,14 @@
 | 32 | DHA_AllCitySponsorshipRequirements.pages | Premier-sponsor support checklist for Dental Health Associates. Calls for a "league-level contract appendix". | **Not signed.** Reads as a checklist of requirements. Treat it as de facto sponsor terms. |
 | 33, 66 | Hill Farm 2025 / Parkcrest 2026 sponsorship packets | Commitment forms | **Blank templates. Not signed.** |
 
-> Bottom line: only **one signed contract document** (Atlas Addendum #1) and **one binding permit** are in the shared Drive. Every other vendor relationship shows up only as budget lines, invoices, or notes.
+> Bottom line: only **one signed contract document** (Atlas Addendum #1) and **one binding permit** are in either Drive tree. Every other vendor relationship shows up only as budget lines, invoices, or notes.
 
 ---
 
 ## Quick flags (dates and discrepancies worth a look)
 
 - **Open money items (as of the budget, #30):** $10,256.80 still "owed" (mostly the concessions PC debit-card line of $8,256.80, plus the $2,000 chair dinner). Uncashed checks are noted ($8,685 and $1,000). **Madison Aquatic Center's $5,000 Gold sponsorship was still outstanding** ("Liz following up", #1).
-- **Budget vs. actual:** Net income came in at **$46,423 vs. $75,169 budgeted**. VIP seating missed by $13,700 and donation nights by $4,000. Expense totals don't agree across tabs ($147,950.90 on the summary vs. $164,315.04 on the expense detail).
+- **Budget vs. actual:** Net income came in at **$46,423 vs. $75,169 budgeted**. VIP seating missed by $13,700 and donation nights by $4,000. The Money debrief (#79) explains the $0 on donation nights: Parkcrest *chose* not to run any ("a mountain to add one more thing"). It was a general revenue idea worth "another $2–4k", not a Second Harvest line. Expense totals don't agree across tabs ($147,950.90 on the summary vs. $164,315.04 on the expense detail).
 - **Handoff to Hawks Landing (2027 host):** the Management debrief (#37) says all docs will be switched to **view-only** and passed to Hawks.
 - **Recurring and multi-year items:** Premier sponsorships are **3-year, contracted through the All-City League** (#36, #66). The Ian's Pizza / Second Harvest sportsmanship award was a **3-year arrangement starting 2025 (pending)** (#75), which covers 2027. DHA wants **premier funds due March 1** (#32). The prior-host precedent (#75) says the Atlas **first deposit is due in December** the year before.
 - **Date inconsistencies to fix before reusing text:** the announcements doc (#7) says sportsmanship awards happen "Thursday 7/29" and "Friday 7/30", but the meet was Thu 7/30 and Fri 7/31. The Ian's Dough-Nation night is **July 9** on the flyer (#55) but **July 23** in the Coaches Packet (#64).
@@ -779,47 +781,176 @@ Entry format: **Location** · **Type** · **Summary** · **Chairs** · **Signed?
 
 ---
 
+---
+
+## Tree 2: project root `0ANCUVyit6Ew1Uk9PVA` › `Parkcrest/`
+
+These files were uploaded into the chair-brief project root by allcityswim27 on 9/11 and 9/22/2026. Several are 2026 Parkcrest committee debriefs that exist nowhere in tree 1. Two of them were later copied into the reference folder. The `.docx`/`.xlsx` exports of Google-native files already indexed in tree 1 are listed as duplicates at the end.
+
+### `Parkcrest/Debriefs/`
+
+#### 78. PCDebriefNotes.Fac.docx ⭐ not in Parkcrest's Drive
+- **Location:** Parkcrest › Debriefs · Word · [link](https://drive.google.com/open?id=1CIkjrFVQFmmKlKIhh_EGaT4CTvr4BaSp)
+- **Type:** **Debrief (2026), Facilities (Joe Heinrich)**
+- **Summary:** Bleachers and grounds (with links to a "Two weeks prior" calendar and the Notice to Neighborhoods, neither of which is in Drive). Parking-pass mechanics (2 coach passes per pool, half-day passes for timers/clerks, a color per session, full-day passes for sponsors by tier, ask Austin how many his team needs). **Tents:** Gallagher for tent city (set up Mon–Tue); Madison Party Rental for pool-area tents, listing every tent size and location (clerk 40x60 on the basketball court, volunteer 20x20, awards 16x16, Simply Swimming 20x40, concessions 20x20, dining 20x40, 5 sponsor pop-ups) plus 45 tables, 450 chairs, and 4 fans. **City fire rules:** file a *Tent Notification of Operation* with Madison Fire ≥2 weeks prior; fire extinguisher for tents over 400 sq ft; tents ≥10 ft apart; 40 lb ballast or staking per leg. **Waste:** Pellitteri detail, including a 150-bag count and a warning that cardboard boxes collapse in rain. **Porta-potties:** Lon's Jons ("invoice with notes are in the Google Drive", which was not found).
+- **Chairs:** **Facilities**, Parking & Transportation, Waste
+- **Signed?** No
+- **$ / Vendors:** **Madison Party Rental: $11,810.05 rental, less $2,100 sponsorship = $9,710.05**; Gallagher Tent & Awning (Nick Gallagher); Pellitteri, 30 event boxes, **$1,945 est.** (Todd Bollenbach); Pellitteri declined a low-tier sponsorship; Lon's Jons
+- **Time-sensitive:** Madison Fire tent notification ≥2 weeks before the event
+- **Confidence:** **Strong precedent.** The best Facilities source in the Drive. ⚠️ Three different Pellitteri box and dollar figures exist (20 boxes/$1,755 in #20, 30/$1,945 here, 28 billed/$1,975 in #16).
+
+#### 79. PCDebriefNotes.Money.docx ⭐ not in Parkcrest's Drive
+- **Location:** Parkcrest › Debriefs · Word · [link](https://drive.google.com/open?id=11K-kP-Pvppzn1_qMuqyBH3fM2z5ECXEG)
+- **Type:** **Debrief (2026), Sponsorship (Liz Brown) + Accounting (Elaine Brown)**
+- **Summary:** Sponsorship: totals ($119,600 cash, "~$45,000" in-kind) and a month-by-month timeline (team Oct 2025, packet Nov, outreach Dec–Jun, logos on the website in March, AlphaGraphics banners from May, shirt logos by 6/30, event sponsors to Austin in early July, the announcer script a week out). The lessons-learned doc and contacts sheet were **sent to Jon Konarske on 9/2** (Google links; the files themselves aren't in either tree). Accounting: bleachers deposit at the end of 2025; awards payment and tents deposit in Mar/Apr; reimbursements bunched after the meet. Lessons: confirm in-kind promises (the golf carts turned out to be paid), check Austin's quote (the $1,852.50 surprise), and donation nights were deliberately skipped.
+- **Chairs:** **Sponsorship, Financial**
+- **Signed?** No
+- **$ / Vendors:** $119,600 cash; ~$45,000 in-kind; Austin/Affinity $1,852.50 unplanned; AlphaGraphics (banners)
+- **Time-sensitive:** **Payment calendar for 2027:** bleachers deposit ~Dec 2026, awards and tents Mar/Apr 2027
+- **Confidence:** **Strong precedent.** This is the file behind the reference copy "Accounting and Sponsorship — 2026 Debrief Notes".
+
+#### 80. PCDebriefNotes.Marketing.docx
+- **Location:** Parkcrest › Debriefs · Word
+- **Type:** Debrief (2026), Marketing (Andrew Garner)
+- **Summary:** Template instructions only, plus three labels: Social Media = Ally Spencer and Alexa Verhelst; PR/neighborhood = Andrew Garner; Photography = blank. No real content.
+- **Chairs:** Communications & PR; Social Media
+- **Signed?** No · **$ / Vendors:** None · **Time-sensitive:** None
+- **Confidence:** **Empty** (as the handoff already found)
+
+#### 81. PCDebriefNotes.Ambiance.docx ⭐ not in Parkcrest's Drive
+- **Location:** Parkcrest › Debriefs · Word · [link](https://drive.google.com/open?id=1iIzFpmLIuTUVHkArWFbePr5cZgBbd4C0)
+- **Type:** **Debrief (2026), Recognition, Apparel & Ambiance (Jesse Gerhardt)**
+- **Summary:** **Apparel:** Simply Swimming designer Colin; logo work Sep–Nov ("before the first of the year"); apparel chosen mid-June; Bella Softstyle volunteer shirts near cost. **Awards:** Total Awards (Janet Gray), a Nov–July timeline, 2,600 bag tags from Bag Tags Inc (Dyan Francisco), recycled trophies (swim only), and **the wooden 1–5 podium picked up from All-City League storage and repainted**. Podium banner from AlphaGraphics Middleton (Asia Farland). **Senior Recognition:** Simply Swimming's $2,000 toward gifts. **Decor:** pick 1–2 signature items (icebergs), foam from Facebook Marketplace and Leisure Concepts, lock the colors early, plan for rain, use lifeguards. Yellowstone was congested, so close more street. **Charge $50 (not $100) for premier seating.**
+- **Chairs:** **Apparel, Recognition & Awards, Senior Recognition, Signage/Decorations/Selfies**; Facilities (congestion); Sponsorship (premier seating price)
+- **Signed?** No
+- **$ / Vendors:** Simply Swimming, Total Awards & Promotions, Bag Tags Inc, AlphaGraphics Middleton, Leisure Concepts
+- **Time-sensitive:** **Logo must be done before Jan 1** of the meet year; the medal/ribbon design meeting is in March
+- **Confidence:** **Strong precedent.** This is the file behind the reference copy "Recognition, Apparel and Ambiance — 2026 Debrief Notes".
+
+#### 82. PCDebriefNotes.Clerk.docx
+- **Location:** Parkcrest › Debriefs · Word
+- **Type:** Debrief (2026), Meet Management variant
+- **Summary:** Despite the filename, it holds **no Clerk content**, only role labels for Clerk, Officials, Announcers, and Tech. The full text is the Timers section (Thomas Machleidt) and the Meet Marshals section (Daniel March), both word-for-word the same as #37.
+- **Chairs:** Timers; Meet Marshals
+- **Signed?** No · **$ / Vendors:** None · **Time-sensitive:** None
+- **Confidence:** **Partial duplicate of #37.** Misleading filename.
+
+#### 83–85. PCDebriefNotes.Food.docx / .Management.docx / .Volunteers.docx
+- **Location:** Parkcrest › Debriefs · Word
+- **Summary:** .docx exports of the Google Docs #52, #37 and #51 (file sizes match the reference-folder copies). Not re-read.
+- **Confidence:** **Duplicates.** Use #52, #37, #51.
+
+### `Parkcrest/Sponsorship/`
+
+#### 86–91. Six .xlsx exports
+`Parkcrest All City 2026 Budget.xlsx`, `Sponsor Descriptions.xlsx`, `All-City Swim_ Sponsorship Tiers.xlsx`, `Event Sponsors.xlsx`, `2026 PC All-City Swim Sponsorship-2.xlsx`, `Sponsorship - Financial Summary.xlsx`
+- **Summary:** Excel exports of the Google Sheets #30, #35, #36, #31, #29 and #1, uploaded 9/22. Not re-read. Note that a "Sponsorship" folder here is **not** the brief project's own `Sponsorship` chair folder.
+- **Confidence:** **Duplicates.**
+
+### `Parkcrest/` (loose files)
+
+#### 92. All City Facilities and Event Plan Set for Street App.pdf ⭐ not in Parkcrest's Drive
+- **Location:** Parkcrest (loose) · PDF (3.5 MB, mostly maps)
+- **Type:** Site plan / permit-application exhibit
+- **Summary:** Parkcrest's street-use application plan set dated **4/11/2026**. Covers concrete barriers at both ends of Yellowstone and behind the Inner Drive grandstands; 20–30 ft clear curb and a 20 ft drive lane; porta-potty banks (tennis courts, north Yellowstone with ADA); tent city in the grass; the school cafeteria for officials and coaches; snow fence with "no pick-up/drop-off" signs; 3–4 food trucks in 90 ft; a 20x40 dining tent; sponsor 10x10s opposite concessions; the Simply Swimming box truck; key-code guard-house bathrooms; and Pellitteri dumpsters plus golf carts for trash.
+- **Chairs:** **Facilities, Parking & Transportation**; Concessions (truck layout); Signage
+- **Signed?** No (application exhibit)
+- **$ / Vendors:** Pellitteri
+- **Time-sensitive:** Historical. It was ready **~3.5 months before the meet**, ahead of the 5/13 street-use meeting (#19).
+- **Confidence:** **Strong precedent.** It is the missing link between the 3/9/25 planning notes (#15) and the issued permit (#19).
+
+#### 93. Tent City Mascots.png
+- **Location:** Parkcrest (loose) · PNG
+- **Type:** Design artwork
+- **Summary:** Ten snow-capped "Polar" team mascot signs on posts: Middleton, Nakoma, High Point, Ridgewood, Maple Bluff, West Side, Goodman, Hill Farm, Hawks Landing, and "Seminol" (sic). **Monona, Parkcrest and Shorewood are not in the image.**
+- **Chairs:** Signage/Decorations/Selfies
+- **Signed?** No · **$ / Vendors:** None · **Time-sensitive:** None
+- **Confidence:** Moderate. It's design reference for the per-team tent signs; the missing teams and the typo suggest it's a draft.
+
+#### 94. 2026 All-City Safety Ops Plan.docx
+- **Summary:** Same file size as #63 (the EAP Plan.docx). The handoff's Medical brief also confirmed them identical.
+- **Confidence:** **Duplicate of #63.**
+
+#### 95. Copy of Sponsorship - Financial Summary
+- **Summary:** Google Sheet copy of #1.
+- **Confidence:** **Duplicate of #1.**
+
+---
+
+## Cross-check against the handoff's open items
+
+Places where this index **answers, sharpens, or contradicts** something `Chair-Brief-Handoff.md` treats as open or absent. Each one is worth a look before the item goes to Sarah or Michelle.
+
+| Handoff item | What the Drive shows | Entries |
+|---|---|---|
+| "Donation Nights" $4,000 budgeted / $0 actual: is it tied to Second Harvest? | **Answered.** Elaine Brown says Parkcrest *chose* not to run donation nights at all ("a mountain to add one more thing"). She estimates they could have earned "$2–4k" in general revenue. It is not a Second Harvest line. | 79, 30 |
+| Jess Culberson vs. Andrea Slotten: who ran Second Harvest? | **Largely answered.** Andrea Slotten appears only in the *early* interest/draft docs as the Food Drive placeholder. The final roster lists **Jess Culberson** for Food Drive, and the co-directors' thank-you script credits Jess with leading Second Harvest. Andrea is thanked separately as a general "Swiss Army knife" volunteer (and is listed as a sponsorship contact). | 26, 54, 61, 72 |
+| Wooden awards podium "may exist" in League storage | **Confirmed.** Parkcrest's Awards leads "picked up the wooden Awards Podium (places 1-5) from AC Storage" in May and repainted it. It should go back to League storage for Hawks. | 81 |
+| "Selfies" has no source anywhere | **Contradicted.** Parkcrest's 2026 roster has a **"Selfie Stations — Erin Strange"** sub-lead under Recognition/Apparel/Ambiance, and the early committee map lists a Selfie Stations sub-committee. Shorewood 2024 ran 3 selfie stations plus the DHA photo booth, its site map marks them, and Hill Farm used a photo cut-out board and a VW Beetle. The DHA premier checklist centers on the photo booth. No selfie debrief text or budget line exists, but the role and its precedent do. | 26, 72, 42, 24, 46, 32, 34 |
+| 2026 senior headcount "not stated anywhere" | **Stated:** the announcer notes say "Total of 73 seniors". | 7 |
+| Radio plan "has no Medical channel" | **Contradicted.** The plan has **Ch 3 "Medical – UW Health"** (and Ch 14 golf carts). Check which version the Medical brief looked at. It is correct that there is no Timers or Marketing channel. | 9 |
+| Parkcrest "never ran Social Media as its own role" | **Nuance.** It wasn't a committee, but it had named leads: Ally Spencer and Alexa Verhelst under Marketing. | 80, 59, 61 |
+| In-kind total: three different figures | **Confirmed as three figures:** $43,500 (#1), ~$45,000 (#79), $46,500 (#30). No document reconciles them. | 1, 79, 30 |
+| Who built and ran the website and app | **Mostly answered.** Austin Lacey's firm ran the website and app in 2024 and billed 2026 "All-City App Support" ($1,852.50). Parkcrest's roster lists "Website/App (Austin) – Kevin Branch / Marianne Novella" as the PC-side liaisons. | 26, 30, 44, 79 |
+| Concessions: "fully cashless" vs. "$5 card minimum" | **Still open, with one more data point.** The Drive says cashless everywhere, but the budget records **$1,253 "Gross receipts – Cash"** (Polar Punch cards were sold for cash at main concessions per #7). No $5 minimum appears in writing. | 7, 30, 52 |
+| Timer's Instruction doc not found | **Confirmed absent from both trees.** It's referenced only in the Timers debrief text. | 37, 82 |
+| Clerk of Course working docs | **Not in either tree.** The Workflow, Roles, Checklists, Materials, Assignments and Resources docs are linked from #37 (Google links) and exist only as the brief project's reference copies. | 37 |
+| Notice to Neighbors / "Two weeks prior" calendar | **Not in either tree.** Linked from the Facilities debrief. The Notice exists only as the reference copy. | 78 |
+| Tent staking near utility lines (Facilities open item) | **Adds constraint data:** the Madison Fire tent notification (≥2 weeks prior), 10 ft spacing, 40 lb ballast or stake per leg, and MPR tents ballasted on hard surfaces. | 78 |
+| Waste & Refuse role: its own brief or part of Facilities? | Parkcrest ran it as a **Facilities sub-lead (Wes Culberson)** with its own debrief section, planning notes and invoice. There's enough material for a standalone brief. | 16, 20, 78 |
+| Premier seating pricing (Sponsorship and Facilities) | RAA recommends **$50 instead of $100**, and adding tents for rain cover. The budget shows 97 sold against 234 budgeted. | 81, 30 |
+| Hospitality "Officials Room – 20-30 at a time" note | **Not found** in either tree. | — |
+| Announcer succession (Patrick Sweeney stepping down) | **Nothing in Drive.** The source is project-only (`Permit_Open_Items_Tracker.md`). Sweeney does appear in the 2026 announcer parking list (Hawks Landing, Thu am). | 8 |
+
+---
+
 ## Appendix A: Coverage by chair
 
-Main sources for each chair (entry numbers):
+Main sources for each 2027 chair (entry numbers). The 2027 chair names and brief folders come from `Chair-Brief-Handoff.md`.
 
-| Chair | Primary sources | Secondary |
+| 2027 brief (chair) | Primary sources | Secondary |
 |---|---|---|
-| Co-Directors | 26, 42, 44, 46, 64, 76 | 59, 61, 62, 72, 15 |
-| Facilities / Grounds | 13, 15, 18, 19, 21, 68 | 20, 16, 22, 25, 42, 46, 74, 75 |
-| Parking & Transportation | 4, 8, 19, 64 | 10, 14, 24, 15 |
-| Waste (Facilities) | 16, 20 | 42, 46 |
-| Officials | 37 | 11, 45, 30 |
-| Timers | 37 | 39, 45 |
+| Co-Directors (Sarah / Michelle) | 26, 42, 44, 46, 64, 76 | 59, 61, 62, 72, 15 |
+| Facilities (Thom Henshue) | **78**, 13, 15, 18, 19, 21, **92**, 68 | 20, 16, 22, 25, 42, 46, 74, 75 |
+| Waste & Refuse (vacant; within Facilities) | 16, 20, 78 | 42, 46, 92 |
+| Parking & Transportation (Erik) | 4, 8, 19, 64, **92** | 10, 14, 24, 15, 78 |
+| Officials (Heidi Diring) | 37 | 11, 45, 30 |
+| Timers (Kristen Sharp) | 37, 82 | 39, 45 |
 | Clerk of Course | 37, 40, 41 | 5, 6, 39, 64, 67, 77 |
-| Meet Marshals | 37 | 7, 63 |
-| Announcer | 37, 7, 35 | 2, 3, 31 |
-| Scoreboards / Timing / Scoring | 37, 2, 31 | 46, 74, 30 |
-| Technology / Livestream | 37, 9, 11 | 68, 75 |
-| Medical | 63, 9 | 7 |
-| Concessions | 52, 27 | 13, 30, 42, 68, 77 |
-| Hospitality | 52 | 57, 58, 64 |
-| Second Harvest | 52, 53 | 55, 64, 75 |
-| Recognition & Awards | 30 (Total Awards, Bag Tags) | 44, 46, 53 |
-| Senior Recognition | 64, 12 | 7, 30, 68 |
-| Apparel | 46 (Simply Swimming economics) | 30, 51 |
-| Signage / Decorations / Selfies | 14, 17 | 24, 68, 50 |
-| Communications & PR | 64, 62 | 65, 70, 77 |
-| Social Media | 34 | 35, 55 |
-| Sponsorship | 1, 29, 66 | 31, 32, 33, 34, 35, 36, 2 |
-| Financial | 30, 1 | 16, 18, 44, 46 |
-| Volunteers | 51 | 39, 40, 64 |
+| Meet Marshals (vacant) | 37, 82 | 7, 63 |
+| Announcer (Patrick Sweeney) | 37, 7, 35 | 2, 3, 31, 8 |
+| Scoreboards, Timing and Scoring (Aaron Noltemeyer) | 37, 2, 31 | 46, 74, 30 |
+| Technology, Timing and Livestream (Steve Moore) | 37, 9, 11 | 68, 75 |
+| Medical (Brian Sharp) | 63, 9 | 7, 92 |
+| Concessions (Sara Nelson / Tara Osterholz) | 52, 27 | 13, 30, 42, 68, 77, 92 |
+| Hospitality (Colleen Elliott) | 52 | 57, 58, 64 |
+| Second Harvest (Jessica Retrum) | 52, 53 | 55, 64, 75, 26 |
+| Awards (Michelle Kipp) | **81**, 30 | 44, 46, 53 |
+| Senior Recognition (Candice Nielsen) | **81**, 64, 12 | 7, 30, 68 |
+| Apparel (Sarah Bolstad) | **81**, 46 | 30, 51 |
+| Signage, Decorations and Selfies (Sarah Bolstad) | **81**, 14, 17, 93 | 24, 26, 42, 68, 50 |
+| Communications and PR (Ashley Kuehnel) | 64, 62 | 65, 70, 77, 80 |
+| Social Media (Natalia Noltemeyer) | 34 | 35, 55, 80 |
+| Sponsorship (Glas Miller / Jon Konarske) | 1, 29, 66, **79** | 31, 32, 33, 34, 35, 36, 2 |
+| Financial (Kelly Dolphin) | 30, 1, **79** | 16, 18, 44, 46 |
+| Volunteer Coordinator (Aubrey Evens) | 51 | 39, 40, 64 |
 
-**Coverage gaps in the shared root:** there are 2026 debriefs only for **Meet Management, Food, and Volunteers**. No Facilities, RAA (Recognition/Apparel/Ambiance), Marketing, Sponsorship, or Accounting debrief lives in this root. The Clerk of Course workflow, roles, checklists, materials, and assignment docs are *linked* from #37 but are not stored here.
+**Debrief coverage across both trees:** Meet Management (#37), Food (#52), Volunteers (#51), Facilities (#78), Money (#79), Ambiance/RAA (#81), Marketing (#80, empty), and the Timers+Marshals variant (#82). There is **no Medical or Security debrief** in either tree, which matches the handoff's Medical finding.
 
-## Appendix B: Your "Parkcrest 2026 — Shared Reference Docs" folder vs. this root
+## Appendix B: `Parkcrest 2026 — Shared Reference Docs` → originals
 
-Your working folder holds renamed copies. I matched them by title and, where possible, identical file size. I did **not** open the copies, so treat this mapping as likely rather than verified:
+The brief project's reference folder (id `1nkqhfoHRf6tO8avU_Xi0blCIt9Ny-Pup`) holds renamed copies. Mapped by title and, where possible, identical file size (the copies themselves weren't opened in this pass):
 
-| Reference-docs copy | Original here |
+| Reference-folder copy | Original |
 |---|---|
-| Radio Channel & Emergency Contact Plan | #9 PC Radio/Phone Contact Info-print.docx |
-| 2026 All-City Coaches Packet (Parkcrest – Traffic Flow & Parking reference) | #64 |
+| All Committees — Full 2026 Budget | #30 (xlsx = #86) |
+| Accounting and Sponsorship — 2026 Debrief Notes | **#79** (identical size, 85,200 bytes) |
+| Recognition, Apparel and Ambiance — 2026 Debrief Notes | **#81** (identical size, 398,197 bytes) |
+| Concessions — Food Committee Debrief Notes | #52 (docx = #83) |
+| Meet Management — Officials, Timing & Announcers Debrief Notes | #37 (docx = #84) |
+| Concessions — Food Truck and Water Wagon Vendor Contacts | #27 |
+| Radio Channel & Emergency Contact Plan | #9 |
+| 2026 All-City Coaches Packet (Traffic Flow & Parking reference) | #64 |
 | City of Madison Street Use Permit (reference) | #19 |
 | 2024 All-City Print Maps (prior host year) | #24 |
 | Facilities — Sign Inventory / Signs Needed, With Counts | #17 / #14 |
@@ -828,13 +959,13 @@ Your working folder holds renamed copies. I matched them by title and, where pos
 | Facilities — Early Planning Meeting Notes, Mar 2025 | #15 |
 | Facilities — Vendor Tent, Table & Power Needs | #13 |
 | Parking Pass Templates / Allocation Counts | #4 / #8 (close but not identical sizes) |
-| Concessions — Food Truck and Water Wagon Vendor Contacts | #27 |
-| Concessions — Food Committee Debrief Notes | #52 |
-| Meet Management — Officials, Timing & Announcers Debrief Notes | #37 |
-| All Committees — Full 2026 Budget | #30 (xlsx export) |
-| `Parkcrest/2026 All-City Safety Ops Plan.docx` | #63 (same size, retitled) |
+| Sponsorship — Tier Benefits Matrix / Event and Race Assignments / Payments Received and In-Kind Summary | #88 / #89 / #91 (identical xlsx sizes) |
 
-**Copies with no original in this shared root** (the source must be elsewhere, such as a chair's personal Drive or a linked doc): Notice to Neighbors Letter (template); Volunteer Instructions — Full Role-by-Role Handout; the Clerk of Course set (Workflow & Training, Role Descriptions, Start/End Checklists, Materials list, Example Volunteer Assignments, Resources/Contacts/Lessons Learned); Recognition, Apparel and Ambiance — 2026 Debrief; Accounting and Sponsorship — 2026 Debrief; Sponsorship — Lessons Learned and Handoff Notes, Full Contact List, Payments Received and In-Kind Summary, Event and Race Assignments, and Tier Benefits Matrix. The sponsorship ones are probably derived from #29 and #1. Trace each of these to its source before citing it as "in the shared Drive".
+**Reference copies with no original in either Drive tree.** The sources are Google links embedded in the debriefs, so their owners (Liz Brown, Nick Brown, Rebecca Rothamer, Joe Heinrich) hold the originals:
+- Sponsorship — Lessons Learned and Handoff Notes; Full Contact List. Sent to Jon Konarske 9/2 (#79).
+- The Clerk of Course set: Workflow & Training, Role Descriptions, Start/End Checklists, Materials, Example Volunteer Assignments, Resources/Contacts/Lessons Learned. Linked from #37.
+- Volunteer Instructions — Full Role-by-Role Handout. Linked from #51.
+- Notice to Neighbors Letter. Linked from #78.
 
 ## Appendix C: Files that could not be fully read
 
@@ -844,4 +975,5 @@ Your working folder holds renamed copies. I matched them by title and, where pos
 | 56 | Coaches Hospitality (Form) | Same | Purpose confirmed from the responses sheet #57 |
 | 32 | DHA_AllCitySponsorshipRequirements.pages | Unsupported MIME type | Downloaded and text extracted locally. Fully read. |
 | 23 | WS.19 | Image-only doc | Exported to PDF and viewed. Single photo. |
-| 50 | ALL-CITY-Logo.jpg | Image | Downloaded and viewed |
+| 50, 93 | ALL-CITY-Logo.jpg, Tent City Mascots.png | Images | Downloaded and viewed |
+| 83–91, 94, 95 | Export duplicates | Same content as Google-native originals already read | Matched by title and size; not re-read |
